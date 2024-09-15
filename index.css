@@ -525,3 +525,57 @@ color: white;
         padding: 0;
     }
 }
+
+.Review{
+    background: whitesmoke;
+    width: 100%;
+    padding: 70px 0;
+ }
+.Review-row{
+    width: 90%;
+    height: 330px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+ }
+.Review-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px indianred;
+    cursor: pointer;
+    transition: transform .5s;
+ }
+.Review-col{
+    font-size: 14px ;
+ }
+.user{
+    display: flex;
+    align-items: center;
+    margin-right: 20px 0;
+ }
+.user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+ }
+.user-info{
+    margin-left: 5px;
+    color: #27c0ff ;
+    font-size: 18px;
+ }
+ .user-info small{
+    color: rgb(216, 125, 51);
+ }
+ .testimonial-col:hover{
+    transform: translaty(7px);
+ }
+ @media  screen and (max-width: 770px){
+    .testimonial-col{
+       flex-basis: 100%;
+    }
+ }
+ 
